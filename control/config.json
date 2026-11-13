@@ -1,0 +1,52 @@
+{
+ "m_dry_vehicle": 7.25,
+ "m_payload": 1.65,
+ "fuel_density": 0.035,
+ "wheel_gain_loaded": {
+  "x": 9.0,
+  "z": 9.0,
+  "y": 30.0
+ },
+ "wheel_gain_empty": {
+  "x": 11.0,
+  "z": 11.0,
+  "y": 30.0
+ },
+ "wheel_damper": 0.0,
+ "att_lead": 0.06,
+ "max_fire_err_deg": 25.0,
+ "lat_kp": 0.4,
+ "lat_kd": 0.8,
+ "lat_vmax": 25.0,
+ "lat_amax": 10.0,
+ "alt_kp": 0.5,
+ "vz_kp": 2.0,
+ "a_brake": 50.0,
+ "v_touch": 1.5,
+ "v_desc_max": 250.0,
+ "h_flare": 1.0,
+ "h_gate": 10.0,
+ "pad_tol": 1.5,
+ "tilt_max_deg": 20.0,
+ "n_ascent": 2,
+ "ascent": {
+  "h1": 40.0,
+  "h2": 420.0,
+  "beta_max": 50.0,
+  "v_ax": 50.0,
+  "v_hyst": 1.5,
+  "ra1": 1180.0,
+  "ra_target": 1300.0,
+  "rc_target": 1240.0,
+  "circ_kr": 0.0,
+  "circ_tgo": 0.3,
+  "rp_ok": 1225.0,
+  "rp_min": 1180.0,
+  "dv_fine": 4.0,
+  "circ_lead": 0.1,
+  "vt_boost_max": 68.0,
+  "boost_fine": 15.0
+ },
+ "revs_required": 3.08,
+ "t_max": 1500.0
+}

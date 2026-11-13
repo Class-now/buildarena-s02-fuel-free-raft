@@ -1,0 +1,13 @@
+[project]
+name = "s02-agent-control"
+version = "1.0.0"
+description = "BuildArena S02 autopilot flight controller (Deliver. Separate. Return.)"
+requires-python = ">=3.12"
+# The controller runs inside the toolkit's environment (workspace root pyproject / uv.lock):
+# it only needs numpy and the bundled controller_sdk. Offline tools in sim/ and tools/ additionally use scipy.
+dependencies = [
+    "numpy>=1.26",
+]
+
+[project.optional-dependencies]
+offline = ["scipy>=1.13"]

@@ -1,0 +1,42 @@
+{
+  "run_id": "s02-run3",
+  "encoding": "cl100k_base",
+  "tokens": {
+    "prestart_materials": {
+      "system_prompt_appendix": 0,
+      "agents_md": 2618,
+      "initial_instruction": 117,
+      "resume_text": 5,
+      "total": 2740
+    },
+    "chat_transcript_without_appendix": 89209,
+    "agent_text_blocks": 8966,
+    "chat_transcript_without_appendix_note": "includes the 2026-11-11 18:53-20:05 UTC section restored from the Claude Code session log (9,196 tokens); 80,013 before the restore"
+  },
+  "agent_text_block_count": 162,
+  "api_usage": {
+    "input_tokens": 622,
+    "output_tokens": 403205,
+    "cache_creation_input_tokens": 1779655,
+    "cache_read_input_tokens": 169260259,
+    "total_cost_usd": 544.050672,
+    "result_events": 22
+  },
+  "invocations": 12,
+  "wall_clock_seconds": 179771.648066,
+  "started_at": "2026-11-11T14:35:21.617541+00:00",
+  "ended_at": "2026-11-13T16:31:33.265607+00:00",
+  "api_usage_gap_from_session_log": {
+    "input_tokens": 186,
+    "output_tokens": 113565,
+    "cache_creation_input_tokens": 253649,
+    "cache_read_input_tokens": 26747039,
+    "note": "API usage of the restored section 18:53-20:05 UTC, read from the per-message usage in the Claude Code session log; not in the harness result events"
+  },
+  "api_usage_including_gap": {
+    "input_tokens": 808,
+    "output_tokens": 516770,
+    "cache_creation_input_tokens": 2033304,
+    "cache_read_input_tokens": 196007298
+  }
+}
